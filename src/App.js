@@ -99,6 +99,7 @@ export default function App() {
             <div class="border-2 border-gray-700">
               <span class="text-gray-400"># of Retweet</span>
               <input
+                type="number"
                 class="bg-black outline-none w-full h-12"
                 value={retweet}
                 onChange={e => setRetweet(e.target.value)}
@@ -109,6 +110,7 @@ export default function App() {
             <div class="border-2 border-gray-700">
               <span class="text-gray-400"># of Quote Tweet</span>
               <input
+                type="number"
                 class="bg-black outline-none w-full h-12"
                 value={quoteTweet}
                 onChange={e => setQuotetweet(e.target.value)}
@@ -119,6 +121,7 @@ export default function App() {
             <div class="border-2 border-gray-700">
               <span class="text-gray-400"># of Like</span>
               <input
+                type="number"
                 class="bg-black outline-none w-full h-12"
                 value={like}
                 onChange={e => setLike(e.target.value)}
